@@ -4,6 +4,7 @@ import {RouterModule} from "@angular/router";
 import {HeaderComponent} from "src/app/todos/components/header/header.component";
 import {TodosService} from "./services/todos.service";
 import {MainComponent} from "../main/main.component";
+import {CommonModule} from "@angular/common";
 
 const routes = [
   {
@@ -21,6 +22,7 @@ const routes = [
   ],
   imports: [
     RouterModule.forChild(routes),
+    CommonModule
   ],
   providers: [TodosService],
   bootstrap: []
