@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { AppComponent } from 'src/app/app.component';
-import {TodosModule} from "./todos/todos.module";
+import {TodosModule} from "src/app/todos/components/todos/todos.module";
 
 @NgModule({
   declarations: [
@@ -14,6 +14,7 @@ import {TodosModule} from "./todos/todos.module";
     TodosModule
   ],
   providers: [],
+  exports: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
