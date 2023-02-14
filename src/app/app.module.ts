@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TodosModule} from "src/app/todos/todos.module";
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { AppComponent } from 'src/app/app.component';
+import {TodosModule} from "./todos/todos.module";
 
 @NgModule({
   declarations: [
