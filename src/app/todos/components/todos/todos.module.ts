@@ -6,6 +6,7 @@ import {TodosService} from "./services/todos.service";
 import {MainComponent} from "../main/main.component";
 import {CommonModule} from "@angular/common";
 import {ListComponent} from "../list/list.component";
+import {FooterComponent} from "../footer/footer.component";
 
 const routes = [
   {
@@ -14,13 +15,13 @@ const routes = [
   }
 ]
 
-
 @NgModule({
   declarations: [
     TodosComponent,
     HeaderComponent,
     MainComponent,
-    ListComponent
+    ListComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forChild(routes),
